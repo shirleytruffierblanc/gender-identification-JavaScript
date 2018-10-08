@@ -22,15 +22,10 @@ The result is :
 ```
 unknown
 unknown
+boy
+girl
+unknown
 dog
-boy 
-girl 
 unknown
-unknown
-girl 
-unknown
-boy 
-
-
 ```
 
