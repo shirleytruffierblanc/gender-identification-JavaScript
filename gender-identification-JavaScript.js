@@ -1,31 +1,15 @@
 //code in JavaScript
 
+var fs = require('fs');
+var str = fs.readFileSync('input.txt', 'utf8');
 
-var texFile = "file.txt";
-var file = new File (textFile);
-
-file.open("r");
-var str="";
-while (!file.epf){
-
-    //read each line of text
-    str += file.readln()
-
-
-file.close();
-alert(str);
-
-
-    switch (names){
-    case "bob":
-	console.log('boy');
-    case "alicia":
-	console.log('girl');
-    case "cookie":
-	console.log('dog');
-    default:
-	console.log('unknown');
-	
-    }
-
-}
+str.replace(/^\s*[\r\n]/gm,"").split(/\s+/).forEach(function (s) {
+    return console.log(
+	s === 'bob'
+	    ? 'boy'
+	    : s === 'alicia'
+	    ? 'girl'
+	    : s === 'cookie'
+	    ? 'dog'
+	    : 'unknown');
+});
