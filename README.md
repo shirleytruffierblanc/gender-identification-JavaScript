@@ -16,7 +16,7 @@ cd gender-identification-JavaScript
 To run and diplay the result of gender-identification.sh use `rhino <data file>`:
 
 ```
-rhino gender-identification-JavaScript.js
+cat input.txt | node gender-identification-JavaScript.js > result.txt
 ```
 The result is : 
 ```
