@@ -18,11 +18,14 @@ chmod +x gender-identification.js
 ```
 ### Running the program and display the result
 
-To run and diplay the result of gender-identification.sh use `cat <data file> | ./gender-identification.js > result.txt
+To run the program use `cat <data file> | ./gender-identification.js > result.txt
  `:
 
 ```
 cat input.txt | ./gender-identification.js > result.txt
+```
+To display the result :
+```
 cat result.txt
 ```
 The result is : 
