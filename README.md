@@ -14,7 +14,7 @@ cd gender-identification-JavaScript
 
 To make the script executable :
 ```
-chmod +x gender-identification.sh
+chmod +x gender-identification-JavaScript.js
 ```
 ### Running the program and display the result
 
