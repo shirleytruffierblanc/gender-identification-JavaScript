@@ -14,14 +14,15 @@ cd gender-identification-JavaScript
 
 To make the script executable :
 ```
-chmod +x gender-identification-JavaScript.js
+chmod +x gender-identification.js
 ```
 ### Running the program and display the result
 
-To run and diplay the result of gender-identification.sh use `rhino <data file>`:
+To run and diplay the result of gender-identification.sh use `cat <data file> | ./gender-identification.js > result.txt
+ `:
 
 ```
-cat input.txt | ./gender-identification-JavaScript.js > result.txt
+cat input.txt | ./gender-identification.js > result.txt
 cat result.txt
 ```
 The result is : 
