@@ -10,7 +10,12 @@ Clone this Github repository:
 git clone https://github.com/shirleytruffierblanc/gender-identification-JavaScript.git
 cd gender-identification-JavaScript
 ```
+### Make the script executable
 
+To make the script executable :
+```
+chmod +x gender-identification.sh
+```
 ### Running the program and display the result
 
 To run and diplay the result of gender-identification.sh use `rhino <data file>`:
