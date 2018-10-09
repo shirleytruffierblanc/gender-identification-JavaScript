@@ -1,7 +1,5 @@
-//code in JavaScript
 #!/usr/bin/env node
 
-//permit to use all type of file name
 let chunk = "";
 
 process.stdin.on("data", data => {
